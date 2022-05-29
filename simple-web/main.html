@@ -1,0 +1,132 @@
+<head>
+<link rel="stylesheet" type="text/css" href="main_css/main.css"/>
+</head>
+
+<title>TITLE</title>
+<link rel="shortcut icon" href="https://cdn.discordapp.com/avatars/918821610696355870/a_04149fd51be5dc9bbeeedbe0f7eb9adf.gif" type="image/x-icon"/>
+
+<!--- PAGE LOADING SCRIPT -->
+<body onload="loadingFunction()">
+<div id="loader"></div>
+<div id="loader-bg"></div>
+<!--- PAGE LOADING SCRIPT -->
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="main_css/sweetalert2.min.js"></script>
+<link rel="stylesheet" href="main_css/sweetalert2.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script>
+
+$(document).on('click', '.link-3', function() 
+{
+
+    Swal.fire({
+  title: '<strong><p class="font">TITLE:</p></strong>',
+  imageUrl: 'https://static.vecteezy.com/system/resources/previews/001/191/989/non_2x/circle-logo-png.png',
+  imageHeight: 250,
+  imageWidth: 250,
+  //icon: 'info',
+  html:
+    '<p class="font">LOREM IPSUM</p>' +
+    '<p class="font"><a href="Link here">URL</a></p>',
+  showCloseButton: true,
+  showCancelButton: false,
+  showConfirmButton: false,
+  focusConfirm: false,
+})
+
+});
+
+
+
+
+
+$(document).on('click', '.link-4', function() 
+{
+
+    Swal.fire({
+  title: '<strong><p class="font">TITLE:</p></strong>',
+  imageUrl: 'https://static.vecteezy.com/system/resources/previews/001/191/989/non_2x/circle-logo-png.png',
+  imageHeight: 250,
+  imageWidth: 250,
+  //icon: 'info',
+  html:
+    '<p class="font">LOREM IPSUM</p>',
+  showCloseButton: true,
+  showCancelButton: false,
+  showConfirmButton: false,
+  focusConfirm: false,
+})
+
+
+});
+</script>
+
+
+
+
+<!--- PAGE LOADING SCRIPT -->
+<script>
+var findElement;
+
+function loadingFunction() {
+  findElement = setTimeout(showPage, 1500);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("loader-bg").style.display = "none";
+  document.getElementById("main-div").style.display = "block";
+}
+
+</script>
+<!--- PAGE LOADING SCRIPT -->
+
+<div id ="main-div">
+
+<nav id="nav-1">
+  <a class="link-1" href="#">PAGE #1</a>
+  <a class="link-1" href="#">PAGE #2</a>
+  <a class="link-3" href="#">PAGE #3</a>
+  <a class="link-4" href="#">PAGE #4</a>
+</nav>
+
+
+<div class="container1">
+    <img class="img1" src="https://wallpaperaccess.com/full/3636092.jpg"/>
+    <p class="text1">LOREM IPSUM<br>LOREM IPSUM LOREM IPSUM</p>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="container2">
+    <img class="img2" src="https://cdn.wallpapersafari.com/74/87/S5psgt.jpg"/>
+    <p class="text2">LOREM IPSUM<br>LOREM IPSUM LOREM IPSUM</p>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="container1">
+    <img class="img1" src="https://wallpaperaccess.com/full/3636092.jpg"/>
+    <p class="text1">LOREM IPSUM<BR>LOREM IPSUM LOREM IPSUM</p>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="container2">
+    <img class="img2" src="https://cdn.wallpapersafari.com/74/87/S5psgt.jpg"/>
+    <p class="text2">LOREM IPSUM<BR>LOREM IPSUM LOREM IPSUM</p>
+</div>
+
+</div>
+
+
+</body>
